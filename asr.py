@@ -11,8 +11,8 @@ import torchaudio
 from seamless_communication.models.inference import Translator
 from tqdm import tqdm
 
-# set the working directory
-os.chdir("/home/stormbird/Downloads/seamless_communication/test")
+# set the working directory to where you have the test files
+os.chdir(os.getcwd())
 
 # Initialize a Translator object with a multitask model, vocoder on the GPU.
 # vocoder is the tokenizer 
